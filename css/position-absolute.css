@@ -1,0 +1,40 @@
+.body{
+margin: 0;
+}
+
+.container{
+background-color: grey;
+position: relative;
+width:300px;
+height:300px;
+
+
+
+
+}
+.red{
+background-color: red;
+height: 100px;
+width: 100px;
+position: absolute;/**Posicion relativa que cambia de acuerdo al padre que en este caso es el body*/
+top:0;
+left:200px;
+
+}
+
+
+.blue{
+background-color:blue;
+height: 100px;
+width: 100px;
+position: absolute;/**Posicion relativa que cambia de acuerdo al padre que en este caso es el body*/
+left:100px;
+top:0;
+}
+
+.yellow {
+background-color: yellow;
+height: 100px;
+width: 100px;
+top:0;
+position:fixed; ; /**Posicion FIXED (fija) no se mueve de su posicion. util si vas a hacer menus.

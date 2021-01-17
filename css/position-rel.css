@@ -1,0 +1,31 @@
+
+
+
+
+.red{
+background-color: red;
+height: 100px;
+width: 100px;
+position: relative; /**Posicion relativa que cambia de acuerdo el margen*/
+display: inline-block; /*Cambiando el display a inline-block uno al lado de otro*/
+right: 0;
+}
+
+
+.blue{
+background-color:blue;
+height: 100px;
+width: 100px;
+display: inline-block; /*Cambiando el display a inline-block uno al lado de otro*/
+position: relative; /**Posicion relativa que cambia de acuerdo el margen*/
+left:100px;
+}
+
+.yellow {
+background-color: yellow;
+height: 100px;
+width: 100px;
+display: inline-block; /*Cambiando el display a inline-block uno al lado de otro*/
+position: relative; /**Posicion relativa que cambia de acuerdo el margen*/
+right:100px;
+}
